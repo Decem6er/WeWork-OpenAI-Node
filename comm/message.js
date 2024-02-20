@@ -1,11 +1,9 @@
-//import fs from "fs";
 import { config } from "dotenv";
-import request from "request";
+//import request from "request";
 
 import crypto from "crypto";
 import { parseString }  from "xml2js";
-import { getAccessToken } from "./config.js";
-import { xmlmsg1 } from "./templates.js";
+//import { getAccessToken } from "./config.js";
 
 config();
 
@@ -13,8 +11,7 @@ const base = {
   url: 'https://qyapi.weixin.qq.com/cgi-bin',
 };
 
-
-export class Message {
+export default class Message {
     constructor() {
 
         this.secret =   process.env.SECRET;
@@ -132,6 +129,20 @@ export class Message {
         return msg.xml.Content[0];
     }
 
+    async decode(data) {
+
+        const xmlString = this.decrypt(data.xml.Encrypt[0]);
+        const result = await new Promise((resolve, reject) => 
+            parseString(xmlString,(err, res) => {
+                if (err) 
+                    reject(err);
+                else 
+                    resolve(res);
+        }));
+
+        return result.xml;
+    }
+
     async getMsgObj(req) {
 
         const xmlString = this.decrypt(req.body.xml.Encrypt[0]);
@@ -157,7 +168,7 @@ export class Message {
         }
     }
 
-    /*passive message*/
+    /*passive message
     reply(res, options, toUser) {
 
         res.writeHead(200, { 'Content-Type': 'application/xml' });
@@ -166,9 +177,9 @@ export class Message {
         const msgEncrypt = this.encryptMsg(resMsg);
 
         res.end(msgEncrypt);
-    }
+    }*/
 
-    /*active message*/
+    /*active message
     async sendMsg(answer, toUser) {
 
         const token = await getAccessToken();
@@ -192,5 +203,5 @@ export class Message {
                 console.log(res?.headers,"\n",body)
             }
         });
-    }
+    }*/
 }  

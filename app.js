@@ -1,18 +1,17 @@
 import express from "express";
 import { config } from "dotenv";
+import debug from "./comm/debug.js";
 import bodyParser from 'body-parser';
 import bodyParserXml from 'body-parser-xml';
 
-import getAIChat from "./openai.js";
-import { Message } from "./message.js";
-import { initAccessToken } from "./config.js";
+import { initAccessToken } from "./comm/accesstoken.js";
+import conversation from "./route/conversation.js";
 
 config();
 bodyParserXml(bodyParser);
 
 const app = express();
 const PORT = process.env.PORT;
-const message = new Message();
 
 /*message.log();*/
 
@@ -26,37 +25,11 @@ app.get('/healthz', function (req, res, next) {
     res.status(200).end();
 });
 
-/*receive server url setting*/
-app.get('/message', function (req, res, next) {
-    message.urlSetting(req, res);
-});
-
-/*passive message response*/
-app.post('/message', function (req, res, next) {
-
-    message.getMsgObj(req).then(result => {
-        const question = result?.Content[0];
-        //const question = "what's the day today?";
-        console.log(question);
-        const toUser = result.FromUserName[0];
-        message.reply(res, { type: 'text', content: '正在生成回答' }, toUser);
-
-        getAIChat(question).then(result => {
-            const content = result?.data?.choices[0]?.message?.content;
-            if(!!content) {
-                const answer = Buffer.from(content, 'utf-8').toString();
-                console.log(answer);
-                message.sendMsg(answer, toUser);
-            }
-
-        })
-    })
-
-});
+app.use('/message',conversation);
 
 /*init access_token*/
 initAccessToken();
 
 app.listen(PORT, () => {
-    console.log(`Server Running on Port:${PORT}`);
+    debug.out(`Server Running on Port:${PORT}`);
 });

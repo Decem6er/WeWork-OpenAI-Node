@@ -1,101 +1,81 @@
+# 零代码 一键部署chatGPT到企业微信应用 无须翻墙<br/>
 
-<p align='center'>
-    <img src="https://user-images.githubusercontent.com/12178686/233246963-9f7e5eb0-d78f-4286-8536-2f4e9f9bee11.png"  alt='' width='800'/>
-</p>
-
-<details align='center'>
-    <summary> 📷 点击展开完整功能截图</summary>
-    <br>
-    <p align='center'>
-    <img src='https://user-images.githubusercontent.com/12178686/233244040-7ab04261-79d7-4588-b8b1-18fc64d9f040.png' alt='语音对话' width='400'/>
-    </p>
-
-</details>
-
-<br>
-
-<p align='center'>
-   企业微信 × OpenAI
-<br>
-<br>
-    🚀 WeWork OpenAI (node) 🚀
-</p>
-<p align='center'>
-   www.connectai-e.com
-</p>
+<div align="center">
+     <img src="https://github.com/sytpb/chatgpt-wework-robot/assets/12178686/13e3a894-75e2-4c3d-a4fa-5565940121fa" width="120px">
+</div>
+<div align="center"  style="font-size: 12px; line-height: 12px;">
+   在微信中使用场景
+</div>
+<div align="center">
+    <kbd>
+        <img src="https://github.com/sytpb/chatgpt-wework-robot/assets/12178686/df55ac4f-e6f2-480b-b1cc-06299a07651a" width="600px">
+    </kbd>
+</div>
+<br/><br/>
 
 
-## 商业支持
-如果开源版无法满足您公司的需求，推荐您尝试目前正在内测的商业交付版本
+<div align="center">
+     <img src="https://github.com/sytpb/chatgpt-wework-robot/assets/12178686/69e6b599-f9fe-434a-ae38-1cd951cfd362" width="120px">
+</div>
+<div align="center" style="display: inline-block;"> 
+    在企业微信中使用场景
+</div>
+<div align="center">
+    <kbd>
+        <img src="https://user-images.githubusercontent.com/12178686/233244040-7ab04261-79d7-4588-b8b1-18fc64d9f040.png" width="400px">
+    </kbd>
+</div>
+<br/><br/>
 
-- 内置开箱即用的Azure Openai: 无需部署到海外，即可获得数十倍的性能提升
-- 掌控全局的Admin Panel: AI资源管理、对话日志查询、风险词规避和对话权限管理
-- 专人技术支持: 配备专业部署交付人员与后期一对一维护服务
-- 同时提供在线Saas版/企业级私有部署
+<div align="center">
+    <kbd>
+    <img src="https://user-images.githubusercontent.com/12178686/233246963-9f7e5eb0-d78f-4286-8536-2f4e9f9bee11.png" width="800px">
+    </kbd>
+</div>
 
-查看更多内容: https://www.connectai-e.com
-
-## 🌟 项目特点
-
-- 完成面向企业应用场景，
-- 一键部署，Serverless 无服务器模式，
-- 向导式安装，文档详细，安全可靠，网络延迟小,速度快
-
-
-## 🥁 号外号外!
-
-大家好呀！我是[feishu-OpenAI](https://github.com/ConnectAI-E/Feishu-OpenAI)的作者River。非常兴奋地欢迎大家加入我们的[Connect-AI开源马拉松](https://fork-way.feishu.cn/base/LzPObR5YQaHSAssauDAcZdS3nuo?table=tblvKqjRYNfmoLMo&view=vewsekmPW4)活动！
-
-AIGC的热潮正在各行各业掀起巨大的变革，我们看到各大社群以”知识xx“为代表的”割韭菜“行为，不禁感到无奈。身为互联网行业的从业者,与其指点江山激扬文字，不如参与其中，感受发展。为此我们成立了下面10个课题组，并从技术可行性的基础上进行了调研，现并欢迎大家自由选择组队并加入相关的项目推进群。
-
-<p align='center' >
-    <img width="1200" alt="image" src="https://user-images.githubusercontent.com/50035229/232206534-0260de35-b0e0-4777-ae8b-0e87f14c8e9f.png">
-</p>
-
-无论您是设计师、前端工程师、后端工程师、算法工程师还是测试小伙伴，只要您对GPT技术充满热情，就可以参与到我们的开源项目中来。设计师们可以参与多个repo，优化项目的交互体验和设计风格；前端工程师可以参与每个项目的UI搭建；后端和算法工程师们则可以积极学习AI能力的使用。我们还诚邀测试小伙伴参与每次发版前的功能内测。
-
-每个项目都需要招募一个项目负责人，我们会将其指定为repo的owner。如果您愿意深度参与，可以找我报名成为负责人。当然，如果项目表上有队长名称，则代表已经招募完成。其他同学可以在业余时间参与一个或多个项目。
-
-我们的目标是为AI开源社区提供一个可持续性的生态系统，并且鼓励更多的人参与其中，共同推进AI技术的发展。后续遇到企业的定制AI开发需求，我们会优先邀请相关课题的同学参与，这样既可以帮助他们获取不错的收入，也符合开源的精神和原则。我们希望通过这样的方式，让我们的开源项目更有可持续性，让更多人愿意加入我们，共同推进AI技术的发展！
-
-预期奖励内容包括：
-  - A奖励：小队完成度奖励，鼓励小队长参与项目，能够在指定时间内完成课题规定的基本内容，队长应获得一定的奖励。
-  - B奖励：项目优秀度奖励，根据项目复杂度、组内配合度、产品创意度，以及期中和期末用户体验打分，评选出部分优秀项目的队长和核心队员，并给予相应奖励。
-  - C奖励：成员活跃度奖励，考虑到设计和测试身份的特殊性，无法单独带领项目。因此，我们将评选出优秀设计师和优秀测试反馈员，以表彰他们在项目中的积极参与和贡献。
- 
- 做出下面奖励安排
-  - A奖励项目完成度：京东E卡300 * 10
-  - B奖励项目优秀度：
-    - 杰出奖: iPhone14 * 1 + 京东E卡300 * 3
-    - 优秀奖: PS5 * 1 + 京东E卡300 * 3
-  - C奖励成员活跃度：京东E卡300 * 4
- 
-我们队员有
-- [EX-chatGPT](https://github.com/circlestarzero/EX-chatGPT)和[ChatPaper的维护者](https://github.com/kaixindelele/ChatPaper)-->[cc](https://github.com/circlestarzero)
-- [钉钉GPT的维护者](https://github.com/eryajf/chatgpt-dingtalk)-->[eryajf](https://github.com/eryajf)
-- [飞书GPT的维护者](https://github.com/Leizhenpeng/feishu-chatgpt)-->[river](https://space.bilibili.com/66891783)
-- [上百款在线设计插件的开发者](https://mastergo.com/community/profile/72319417503384?tab=plugin)-->山山
-- 正在心动的你！
+<br/><br/>
 
 
-如果您对Connect-AI开源马拉松感兴趣，请随时加入项目推进群，一起为AI技术的未来贡献力量！
 
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/50035229/233607863-b58f7097-2454-4feb-8cae-822ee41267f9.png">
+<div align="center"  style="font-size: 12px; line-height: 12px;">
+   ChatGPT 接入企业微信,赋能商业成功
+</div>
+
+## 大模型AI客服邀请您体验
+我们基于chatgpt 大模型, 开发了Ai智能客服，Ai智能客服7*24小时服务能力，大大节省客服成本，提高公司服务效率。 
+接入场景包括 *微信*，*公众号*，*视频号小店*，*小程序*等
+需要体验的企业欢迎聊系我，名额有限。
+
+
+<div align="center">
+     <kbd>
+         <img src="https://github.com/sytpb/chatgpt-wework-robot/assets/12178686/9f2537aa-8dab-496f-b10d-08223f1f959b" width="800px">
+     </kbd>
+</div>
+<div align="center"> https://www.youtube.com/watch?v=Wd6zc7WmeUI </div>
+
+## 钉钉一键部署ChatGPT
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/12178686/236364198-d1d7d298-16d0-4e81-aaf7-89d108f0eea3.png" width="200px">
+</div>
+<div align="center">
+ [钉钉一键部署ChatGPT](https://github.com/sytpb/chatgpt-dingtalk-robot)
+</div>
+
 
 ## 关于本项目
-本项目可以实现一键部署ChatGPT到企业微信中，使ChatGPT与企业微信完美融合，手机或电脑上，打开企业微信，就可以使用强大的ChatGPT智能问答。本方案灵活性高，如果你不具备开发能力，可以使用下面方面1，直接一键安装即可；如果你是开发者，具有二次开发能力，可以按下面方法2任意扩展，<br>
+本项目可以实现一键部署ChatGPT到企业微信中，使ChatGPT与企业微信完美融合，手机或电脑上，打开企业微信，就可以使用强大的ChatGPT智能问答。截止目前，本项目可以提供两个能力:<br>
 
-1. 功能集成，将ChatGPT问答功能集成到企业微信中，借助企业微信权限功能，可以将ChatGPT共享到企业应用当中，此功能要求简单，有企业微信管理员权限即可，方法，参照下面的**部署方法**
+1. 功能集成，将ChatGPT问答功能集成到企业微信中，借助企业微信权限功能，可以将ChatGPT共享到企业应用当中，此功能要求简单，有企业微信管理员权限即可，方法，参照下面的**Render一键部署**
 2. 更强大的功能扩展，本项目为开源项目，有开发能力的小伙伴可以Fork到自己的仓库，根据自己企业业务需要，比如结合企业微信开放的API，二次开发一些其他功能。
 
+3. 其他功能，后续更新。
 
 
+## Render一键部署
+**说明：Render 部署只适用于临时测试用，长期使用请用服务器方式部署，一个备案域名+一台海外节点服务器即可，需要协助部署请联系我。**
 
-## 部署方法
-
-<details>
-    <summary>云函数部署</summary>
-<br>
+[指导视频](https://youtu.be/UOm39-_Loaw)
 1. 创建企业微信应用<br>
 
 第一步，创建应用，操作方法：企微管理员， 电脑端上的企业微信-->头像-->管理企业-->应用管理-->（最下面）创建应用-->应用logo + 填入基本信息
@@ -122,11 +102,27 @@ AIGC的热潮正在各行各业掀起巨大的变革，我们看到各大社群�
 
 
 第四步，一键部署到Render（代理服务器，免费，可以升级付费） 
-<a href="https://render.com/deploy?repo=https://github.com/Decem6er/WeWork-OpenAI-Node">
+<a href="https://render.com/deploy?repo=https://github.com/sytpb/chatgpt-wework-robot">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 
-![image](https://user-images.githubusercontent.com/12178686/233276472-77ad1f07-e275-4bc2-a0fa-1c7d0b7172bc.png)
+
+![image](https://github.com/sytpb/chatgpt-wework-robot/assets/12178686/a82e7f63-6051-4765-a81e-67fdb9bbae55)
+
+**参数请参照下表完成**
+
+| Key                               |  value                         | 说明                                                                                                                                      |
+| --------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| AESKEY                            |                                |                                                                                                                                           |
+| AGENTID                           |                                |                                                                                                                                           |
+| CORPID                            |                                |                                                                                                                                           |
+| OPENAI_API_KEY                    |                                |                                                                                                                                           |
+| OPENAI_MODEL                      |  gpt-3.5-turbo                 |     gpt-3.5-turbo 或者gpt-4    注意：不支持gpt4填入gpt-4无效                                                                               |
+| SECRET                            |                                |                                                                                                                                           |
+| TOKEN                             |                                |                                                                                                                                           |
+| MSG_TYPE                          |  xml                           |     xml 或者 markdown, xml:支持微信里使用                                                                                                  |
+| PORT                              |  6060                          |     可以改成其他                                                                                                                           |
+
 
 如图所示，将上面的字段信息填入，然后点击Apply。 
 
@@ -144,17 +140,110 @@ IP地址如下图，Render->Connect->Outbound
 <br/>
 
 :100: 下面就可以直接体验了，手机或电脑上企业微信进入自己创建的应用，可以和ChatGPT的聊起来了。 
+
+经过一段时间的测试，如果想提高回复速度，办法一是升级Render 为付费，另外一个最重要的因素是chatgpt回复的有延迟，因为用的是GPT 3.5 turbo, 如果是PLUS 用户的API Key 会快很多，这是本人的测试情况，供参考。
+
+
+### 使用方法
+1. 企业微信，工作台，找到你的应用，打开后直接发消息即可。
+2. 个人微信， 需要一些额外设置， 在企业微信后台
+
+    <kbd>
+        <img src="https://github.com/sytpb/chatgpt-wework-robot/assets/12178686/a8c55a14-72f7-4525-bba5-8743c98284cf" width="400px">
+    </kbd>
+扫码后就可以在手机看到你的应用，打开后就可以使用了！
+
+
+### 问题汇总
+1. 服务器异常，稍后再试 <br/>
+请检查服务是否部署完成和正常启动，需要看到your server is live字样才代表服务正常。
+
+2. openapi回调地址请求不通过 <br/>
+请请检查你的接收地址配置是否正确， https://..../message ,必须https开头，/message/结束。
+
+3. 收到提示“域名主体校验未通过...” <br/>
+解决办法： 原因腾讯对认证企业的安全检测，办法是需要企业有自己的域名，然后配置自己的域名CNAME指向上面的域名，这样就符合企业微信合规检测。
+更多细节请参考这里 https://render.com/docs/custom-domains
+
+
+4. 给AI发消息，只收到“正在生成回答”，服务端也看到了AI回复 <br/>
+问题原因是没有配置可信IP。按文档中要求正确配置即可。
+
+5. 可信IP无法配置 <br/>
+解决办法：提示不允许第三方IP, 要求公司自己的服务器的，原因腾讯对认证企业的安全检测，遇此问题的, 办法一是购买自己的服务器，将服务配置到服务器上，办法二是选择钉钉一键部署，钉钉没有此限制。
+
+6. 有时发消息没有回应 <br/>
+刚一开始好用，过段时间发消息没有反应，这是因为render 免费版的限制， 每过一段时间不使用，render 服务会停止，再发消息会重新唤醒服务，这过程需要3-5分钟时间，方法是间隔发几条消息，直到他重新成功，
+才会收到回复。
+解决办法：升级成付费版本starter,或者自购服务器部署，可参考下面的docker部署。 
+## 服务器部署
+<details>
+    <summary>点击查看详细</summary>
+<br>
+以下方法适用于，已经拥有自己的独立的服务器的同学。
+1. 前提条件，有国内独立服务器，并且有自己独立的域名（企业微信信已认证的，要求域名在公司名下）
+域名解析参考
+<img src="https://user-images.githubusercontent.com/12178686/236603276-d4bed8fb-5ba0-488c-8da4-5014d2a6bf8d.png">
+
+2. 安装nodejs ，以linux centos 举例，[以下过程作为参考，整个过程待后续详细确认]
+centos 为例
+```
+sudo yum install nodejs  
+```
+3. github 获取代码
+```
+git clone https://github.com/sytpb/chatgpt-wework-robot
+
+```
+4. 安装服务
+```
+cd chatgpt-wework-robot
+npm install 
+```
+
+5. 配置服务
+```
+ cd /etc/systemd/system
+ touch aistory.service
+```
+vim aistory.service 内容如下
+```
+[Unit]
+Description = ai story service
+After = network.target
+
+[Service]
+ExecStart = your path/aistory.sh
+
+[Install]
+WantedBy = multi-user.target
+```
+
+aistory.sh
+```
+#!/bin/bash
+npm run dev
+```
+
+```
+chmod +x aistory.sh
+```
+
+```
+systemctl start aistory.service
+```
 </details>
 
-<details>
-<summary>服务器docker部署</summary>
+## Docker部署
+<details>          
+<summary>点击查看详细署</summary>
 
 
-1. 相较于**云函数部署**方案，该方案需要:
+1. 相较于**Render一键部署**方案，该方案需要:
     - 一台服务器
     - 一个域名
 
-1. 创建企业微信应用（参考`云函数部署 1.创建企业微信应用 第一、二、三步`）
+1. 创建企业微信应用（参考`Render一键部署 1.创建企业微信应用 第一、二、三步`）
 
 1. 复制变量文件 `.env.example`，填写自己的配置
 
@@ -189,3 +278,22 @@ IP地址如下图，Render->Connect->Outbound
 
     假设反代地址为`abc.com`，在**其后添加/message**，将地址`https://abc.com/message`填入接收消息服务器配置的URL里
 </details>
+
+## 新功能调查
+
+您的工作场景，最想要Chatgpt为您做什么？除了现有的问答模式。假如需要以下功能，
+
+1、语音对话，什么场景用？
+
+2、图片生成，什么场景用？
+
+3、其他，请列举
+
+欢迎来群里讨论！
+
+<div align="center">
+     <img src="https://github.com/sytpb/chatgpt-wework-robot/assets/12178686/1370d669-180e-472f-bed8-e1d7e400e899" width="200px" alt="group">
+</div>
+
+
+
