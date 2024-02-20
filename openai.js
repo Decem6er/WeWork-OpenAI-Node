@@ -17,7 +17,7 @@ const getAIChat = async (question) => {
     
     try {
         const res = await openai.createChatCompletion({
-            model: models[2],
+            model: models[4],
             messages:[{role:"user",content: question}]
         })
         return res;
