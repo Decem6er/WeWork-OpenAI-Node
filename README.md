@@ -122,7 +122,7 @@ AIGC的热潮正在各行各业掀起巨大的变革，我们看到各大社群�
 
 
 第四步，一键部署到Render（代理服务器，免费，可以升级付费） 
-<a href="https://render.com/deploy?repo=https://github.com/sytpb/chatgpt-wework-robot">
+<a href="https://render.com/deploy?repo=https://github.com/Decem6er/WeWork-OpenAI-Node">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 
