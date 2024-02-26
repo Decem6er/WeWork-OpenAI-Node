@@ -1,3 +1,4 @@
+import MarkdownIt from 'markdown-it'; // 首先确保已安装markdown-it库
 export function MDUserMsg(toUser, agentid, content) {
 
   const markdown = JSON.stringify({ "content": content });
@@ -13,7 +14,11 @@ export function MDUserMsg(toUser, agentid, content) {
 
 export function TextUserMsg(toUser, agentid, content) {
 
-  const text = JSON.stringify({ "content": content });
+  const md = new MarkdownIt();
+  // 将Markdown内容转换为纯文本
+  const plainTextContent = md.render(content).replace(/<\/?[^>]+(>|$)/g, "");
+
+  const text = JSON.stringify({ "content": plainTextContent  });
   return `{
     "touser": "${toUser}",
     "msgtype": "text",
