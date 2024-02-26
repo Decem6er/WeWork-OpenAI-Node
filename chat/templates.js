@@ -16,6 +16,7 @@ export function MDUserMsg(toUser, agentid, content) {
 };
 
 export function TextUserMsg(toUser, agentid, content) {
+  const md = new MarkdownIt();
 
   // 使用html-to-text库将Markdown内容转换为纯文本
   const htmlContent = md.render(content);
