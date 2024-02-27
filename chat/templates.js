@@ -1,7 +1,6 @@
 import MarkdownIt from 'markdown-it'; // 首先确保已安装markdown-it库
-import * as htmlToTextModule from 'html-to-text'; //ESM（ECMAScript模块）环境下，html-to-text库并没有默认导出，库本身不支持ESM，通过.default访问导出的内容
+const htmlToText = require('html-to-text'); //ESM（ECMAScript模块）环境下，html-to-text库并没有默认导出，库本身不支持ESM，通过.default访问导出的内容
 
-const htmlToText = htmlToTextModule.default;
 export function MDUserMsg(toUser, agentid, content) {
 
   const markdown = JSON.stringify({ "content": content });
