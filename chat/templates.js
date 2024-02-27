@@ -1,5 +1,5 @@
 import MarkdownIt from 'markdown-it'; // 首先确保已安装markdown-it库
-const htmlToText = require('html-to-text'); //ESM（ECMAScript模块）环境下，html-to-text库并没有默认导出，库本身不支持ESM，通过.default访问导出的内容
+import * as htmlToTextModule from 'html-to-text'; //ESM（ECMAScript模块）环境下，html-to-text库并没有默认导出，库本身不支持ESM，通过.default访问导出的内容
 
 export function MDUserMsg(toUser, agentid, content) {
 
@@ -19,7 +19,7 @@ export function TextUserMsg(toUser, agentid, content) {
 
   // 使用html-to-text库将Markdown内容转换为纯文本
   const htmlContent = md.render(content);
-  const plainTextContent = htmlToText.fromString(htmlContent);
+  const plainTextContent = htmlToTextModule.convert(htmlContent);
 
   const text = JSON.stringify({ "content": plainTextContent  });
   return `{
